@@ -7,17 +7,17 @@ a simple python code to download pixiv artist illusts, manga and novels.
 you need to edit the pixiv_crawl_input.json file first.
 
 ### PHPSESSID
-defult NaN, input PHPSESSID to download login required contents.
+default NaN, input PHPSESSID to download the login required contents.
 ### user_id
 input one or multiple artist id that you wanted to download.
 ### illusts
-defult true, input true if you want to download illusts, else enter false
+default true, input true if you want to download illusts, else enter false
 ### manga
-defult true, input true if you want to download manga, else enter false
+default true, input true if you want to download manga, else enter false
 ### novels
-defult true, input true if you want to download novels, else enter false
+default true, input true if you want to download novels, else enter false
 
-### Example: if i wanted to download novels from 2 artists with login required contents, the json file will look like:
+### example: if i wanted to download novels from 2 artists with login required contents, the json file will look like
 {
 	"PHPSESSID":12345678_3rzvLrqtQ69jH3bpu0gwPMyds4mOti6k,
 	"user_id":["12345678","22345678"],
@@ -27,5 +27,5 @@ defult true, input true if you want to download novels, else enter false
 }
 
 ## step2: run the code
-run the main.py, and the download result should be located in the content file 
+run the main.py, and a file named content will be created at the same location as main.py with all the download results.
 
