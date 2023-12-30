@@ -8,7 +8,10 @@ you need to edit the pixiv_crawl_input.json file first.
 
 ### description of keys
 
-PHPSESSID:
+- PHPSESSID
+- tytytyt
+- user_id
+- en
 user_id: the pixiv artist id that you want to download
 
 illusts: enter true if you want to download illusts, else enter false
