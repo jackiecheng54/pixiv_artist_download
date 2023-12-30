@@ -4,7 +4,9 @@ a simple python code to download pixiv artist illusts, manga and novels.
 # how to use?
 
 ## step1: edit pixiv_crawl_input.json
-you need to edit the provided json file that will be used in the code.
+you need to edit the pixiv_crawl_input.json file first.
+
+### description of keys
 
 PHPSESSID:
 user_id: the pixiv artist id that you want to download
